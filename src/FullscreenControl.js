@@ -1,12 +1,11 @@
 import L from 'leaflet'
-import {Control} from 'react-leaflet'
+import {MapControl} from 'react-leaflet'
 
 import 'leaflet-fullscreen'
 
 // Converts L.Fullscreen to a React Component
-export default class FullscreenControl extends Control {
+export default class FullscreenControl extends MapControl {
   createLeafletElement(props) {
-    console.log(L)
     return L.Control.Fullscreen(props)
   }
 

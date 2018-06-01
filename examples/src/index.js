@@ -6,13 +6,17 @@ import FullscreenControl from '../../src'
 import './leaflet/leaflet.js'
 import './leaflet/leaflet.css'
 
+import 'leaflet-fullscreen'
+
 import {Map, TileLayer} from 'react-leaflet'
 
 const App = () => (
-  <Map style={{
+  <Map 
+  fullscreenControl
+  style={{
     height: '100vh'
   }} zoom={13} center={[51.505, -0.09]}>
-    <FullscreenControl/>
+    {/* <FullscreenControl/> */}
 
     <TileLayer
       attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
