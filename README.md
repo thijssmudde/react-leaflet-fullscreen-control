@@ -6,7 +6,7 @@ Thanks to https://github.com/Leaflet/Leaflet.fullscreen on which this react plug
 
 ## Example
 
-[Demo MyRoutes.io](http://myroutes.io/)
+[Demo MyRoutes.io](http://myroutes.io/) or in examples folder
 
 ## Installation
 
@@ -15,8 +15,12 @@ yarn add react-leaflet-fullscreen-control
 ```
 
 ```javascript
-// Inside your <Map> component add
-<FullscreenControl/>
+// Import the package
+import 'react-leaflet-fullscreen-control'
+
+// Inside your <Map> component add fullscreenControl
+<Map
+  fullscreenControl />
 ```
 
 ## Dependencies

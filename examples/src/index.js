@@ -5,8 +5,7 @@ import {Map, TileLayer} from 'react-leaflet'
 import './leaflet/leaflet.js'
 import './leaflet/leaflet.css'
 
-import '../../src/lib/leaflet.fullscreen.css'
-import '../../src/lib/leaflet.fullscreen.min.js'
+import '../../src/index'
 
 const App = () => (
   <Map
